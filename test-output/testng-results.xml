@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17687" started-at="2019-12-07T11:10:20Z" finished-at="2019-12-07T11:10:38Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TC001_Login@e63ade]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="17687" started-at="2019-12-07T11:10:20Z" finished-at="2019-12-07T11:10:38Z">
+      <class name="runner.TC001_Login">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:runner.TC001_Login@e63ade]" name="startReport" is-config="true" duration-ms="491" started-at="2019-12-07T11:10:20Z" finished-at="2019-12-07T11:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:runner.TC001_Login@e63ade]" name="setData" is-config="true" duration-ms="0" started-at="2019-12-07T11:10:20Z" finished-at="2019-12-07T11:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TC001_Login@e63ade]" name="setUpClass" is-config="true" duration-ms="156" started-at="2019-12-07T11:10:20Z" finished-at="2019-12-07T11:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="report()[pri:0, instance:runner.TC001_Login@e63ade]" name="report" is-config="true" duration-ms="9" started-at="2019-12-07T11:10:21Z" finished-at="2019-12-07T11:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:runner.TC001_Login@e63ade]" name="beforeMethod" is-config="true" duration-ms="6991" started-at="2019-12-07T11:10:21Z" finished-at="2019-12-07T11:10:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TC001_Login@e63ade]" name="runScenario" duration-ms="2626" started-at="2019-12-07T11:10:28Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-12-07T11:10:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC001 Positive Login Flow"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Leaftaps Login Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:runner.TC001_Login@e63ade]" name="afterMethod" is-config="true" duration-ms="273" started-at="2019-12-07T11:10:30Z" finished-at="2019-12-07T11:10:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:runner.TC001_Login@e63ade]" name="beforeMethod" is-config="true" duration-ms="5029" started-at="2019-12-07T11:10:31Z" finished-at="2019-12-07T11:10:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TC001_Login@e63ade]" name="runScenario" duration-ms="2220" started-at="2019-12-07T11:10:36Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-12-07T11:10:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC001 Positive Login Flow"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Leaftaps Login Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:runner.TC001_Login@e63ade]" name="afterMethod" is-config="true" duration-ms="235" started-at="2019-12-07T11:10:38Z" finished-at="2019-12-07T11:10:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TC001_Login@e63ade]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2019-12-07T11:10:38Z" finished-at="2019-12-07T11:10:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:runner.TC001_Login@e63ade]" name="stopReport" is-config="true" duration-ms="393" started-at="2019-12-07T11:10:38Z" finished-at="2019-12-07T11:10:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- runner.TC001_Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
